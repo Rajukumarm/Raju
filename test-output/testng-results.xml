@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-18T12:34:25 IST" name="Default suite" finished-at="2023-01-18T12:34:33 IST" duration-ms="8050">
+  <suite started-at="2023-01-18T17:58:53 IST" name="Default suite" finished-at="2023-01-18T17:58:53 IST" duration-ms="46">
     <groups>
+      <group name="regression">
+        <method signature="DeleteTest.delete()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" name="delete" class="Maven_Practice.DeleteTest"/>
+        <method signature="DeleteTest.update()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" name="update" class="Maven_Practice.DeleteTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DeleteTest.create()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" name="create" class="Maven_Practice.DeleteTest"/>
+        <method signature="DeleteTest.update()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" name="update" class="Maven_Practice.DeleteTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-01-18T12:34:25 IST" name="Default test" finished-at="2023-01-18T12:34:33 IST" duration-ms="8050">
-      <class name="Maven_Practice.CreateOrg">
-        <test-method signature="connectDb()[pri:0, instance:Maven_Practice.CreateOrg@654f0d9c]" started-at="2023-01-18T12:34:25 IST" name="connectDb" finished-at="2023-01-18T12:34:33 IST" duration-ms="7949" status="PASS">
+    <test started-at="2023-01-18T17:58:53 IST" name="Default test" finished-at="2023-01-18T17:58:53 IST" duration-ms="46">
+      <class name="Maven_Practice.DeleteTest">
+        <test-method signature="create()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" started-at="2023-01-18T17:58:53 IST" name="create" finished-at="2023-01-18T17:58:53 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectDb -->
-      </class> <!-- Maven_Practice.CreateOrg -->
+        </test-method> <!-- create -->
+        <test-method signature="delete()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" started-at="2023-01-18T17:58:53 IST" name="delete" finished-at="2023-01-18T17:58:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method signature="update()[pri:0, instance:Maven_Practice.DeleteTest@306f16f3]" started-at="2023-01-18T17:58:53 IST" name="update" finished-at="2023-01-18T17:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- Maven_Practice.DeleteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
