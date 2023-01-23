@@ -1,4 +1,4 @@
-package ABC;
+package ABCd;
 
 import org.testng.annotations.Test;
 
